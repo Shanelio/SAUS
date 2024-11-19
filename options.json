@@ -1,0 +1,72 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Configuration",
+         "Elements": [
+ 
+            {
+               "Name": "IncludeDir0",
+               "DisplayName": "Shoe Types",
+               "Description": [
+                  "Pick what type of shoes you want.",
+               ],
+               "Type": "ModelEnum",
+		       "MinValue": null,
+		       "MaxValue": null,
+               "DefaultValue": "default"
+            },
+
+         ]
+      }
+   ],
+   
+   "Enums": {
+
+      "ModelEnum": [
+
+         {
+            "DisplayName": "Default Shoes",
+            "Value": "default",
+            "Description": [
+               " ",
+            ]
+         },
+
+         {
+            "DisplayName": "Unleashed AirBoost Shoes",
+            "Value": "airboost",
+            "Description": [
+               " Toggles The AirBoost Shoes from Sonic Unleashed",
+            ]
+         },
+
+         {
+            "DisplayName": "Unleashed Stomp Shoes",
+            "Value": "stomp",
+            "Description": [
+               " Toggles The Stomp Shoes from Sonic Unleashed",
+            ]
+         },
+
+         {
+            "DisplayName": "Unleashed Wall Jump Shoes",
+            "Value": "jump",
+            "Description": [
+               " Toggles The Wall Jump Shoes from Sonic Unleashed",
+            ]
+         },
+
+         {
+            "DisplayName": "Air Jordans",
+            "Value": "kicks",
+            "Description": [
+               " Sonic's got some funny shoes",
+            ]
+         },
+
+      ],
+         
+   },
+   "IniFile": "mod.ini"
+}
