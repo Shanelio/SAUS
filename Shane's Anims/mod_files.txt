@@ -1,2 +1,9 @@
-add raw/character/sonic.pac
+add airboost/raw/character/sonic.pac
+add default/raw/character/sonic.pac
+add default/raw/character/supersonic.pac
+add jump/raw/character/sonic.pac
+add kicks/raw/character/sonic.pac
+add stomp/raw/character/sonic.pac
+add config.ini
 add mod.ini
+add options.json
